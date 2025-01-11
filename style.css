@@ -306,7 +306,7 @@ padding-top: 15px;
  margin-bottom:15px ;
 }
 .new-des{
- rgba(14, 14, 14, 0.7);
+  color:rgba(14, 14, 14, 0.7);
  font-size: 16px;
 }
 .news-contenar{
@@ -455,6 +455,7 @@ color:  #0E0E0E ;
  display: flex;
  justify-content: center;
  gap: 50px;
+ text-align: center;
 }
 .squre-1{
  background-color: #FFFFFF;
@@ -483,8 +484,6 @@ color:  #0E0E0E ;
  background-color: crimson;
 }
 .fild-btn{
- width: ;
- justify-content: center;
  text-align: center;
  margin: 0 auto;
  align-items: center;
@@ -508,6 +507,49 @@ font-size: 14px;
 padding: 20px;
 }
 
-.subscribe-btn{
+.bon-btn:hover{
  background-color: crimson;
 }
+.bon-btn:hover{
+padding: 9px 15px;
+ background-color: rgb(0, 106, 80);
+ border: none;
+ border-radius: 5px;}
+
+ .fild-btn{
+  width: 80%;
+  padding: 12px 0;
+  border: none;
+border-radius: 10px;
+
+ }
+ .input-div{
+  text-align: center;
+  margin-top: 24px;
+  margin-left: 50px;
+ }
+
+ .input-contenar{
+  display: flex
+  ;
+      gap: 0;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+ }
+.input-contenar .email{
+  padding: 20px 10px;
+  border: none;
+  width: 56%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+ .input-contenar button{
+  border: none;
+  width: 20%;
+  border-top-right-radius: 10px;
+  padding: 20px 0;
+  border-bottom-right-radius: 10px;
+  background-color: #006A50;
+  color: white;
+ }
