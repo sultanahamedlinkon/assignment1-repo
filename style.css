@@ -83,6 +83,7 @@ background-color: crimson;
 .box-contenar{
  display: flex;
  justify-content: space-between;
+ gap: 24px;
 }
 /*.box-title{
  padding-top: 50px;
@@ -90,7 +91,7 @@ background-color: crimson;
 }*/
 .box-1{
  text-align:justify ;
- width: 250px;
+ width: 240px;
  height: 150px;
  background-color: #FFFFFF;
  color:rgba(14, 14, 14, 0.7);
@@ -98,6 +99,7 @@ border-radius: 10px;
 border: 1px solid rgba(14, 14, 14, 0.15);;
  padding: 15px;
  margin-top: 20px;
+ gap: 30px;
 }
 .heading{
 padding: 5px;
@@ -105,11 +107,12 @@ color: black;
 }
 .title{
 padding-bottom: 5px;
+font-size: 13px;
 }
 
 .box-2{
  text-align:justify ;
- width: 250px;
+ width: 240px;
  height: 150px;
  background-color: #FFFFFF;
  color:rgba(14, 14, 14, 0.7);
@@ -128,7 +131,7 @@ padding-bottom: 5px;
 
 .box-3{
  text-align:justify ;
- width: 250px;
+ width: 240px;
  height: 150px;
  background-color: #FFFFFF;
  color:rgba(14, 14, 14, 0.7);
@@ -147,7 +150,7 @@ padding-bottom: 5px;
 
 .box-4{
  text-align:justify ;
- width: 250px;
+ width: 240px;
  height: 150px;
  background-color: #FFFFFF;
  color:rgba(14, 14, 14, 0.7);
@@ -170,9 +173,9 @@ padding-bottom: 5px;
  width: 90%;
  margin: 0 auto;
  background-color: #F1F1F3;
- margin-top: 50px;
+ margin-top: px;
  padding-top: 50px;
- margi: 220px;
+ margin: 80px;
  
 }
 
@@ -193,7 +196,7 @@ padding-bottom: 5px;
  color: #0E0E0E;
  padding-bottom: 20px;
  color: #0E0E0E;
- 
+ font-size: 13px;
 }
 .main-1{
  height: 250px;
@@ -275,20 +278,17 @@ padding-bottom: 5px;
 .dr-yunus{
  background-image: url(./assets/quote-bg.png);
  background-repeat: no-repeat;
-margin-top: 20px;
+background-position: top 50px left 50px;
+ max-width: 90%;
  margin: 0 auto;
- height: 350px;
- width: 90%;
- background-color: #FFFFFF;
-margin-top: 50px;
- border-radius: 10px;
- 
+ padding:40px 50px ;
 }
 
 .yunus-p{
  color: #0E0E0E;
  padding-top: 50px;
  padding-bottom: 25px;
+ font-size: 12px;
 }
 .yunus-last{
 color: #0E0E0E;
@@ -307,6 +307,7 @@ padding-top: 15px;
 }
 .new-des{
  rgba(14, 14, 14, 0.7);
+ font-size: 16px;
 }
 .news-contenar{
  background-color: #FFFFFF;
@@ -355,7 +356,10 @@ margin-top: 40px;
  color: rgba(14, 14, 14, 0.7);
  margin-top: 20px ;
  margin-bottom: 20px;
- font-size: 15px;
+ font-size: 13px;
+}
+.news-des{
+ font-size: 13px;
 }
 .news-btn{
  margin-top: 8px;
@@ -423,5 +427,87 @@ margin-top: 40px;
 
 .news-btn:hover{
  color: white;
+ background-color: crimson;
+}
+
+/*donate part style*/
+.parent{
+ background-color: #F1F1F3;
+ height: 400px;
+ width: 70%;
+ margin: 0 auto;
+ margin-top: 50px
+}
+.donet{
+ text-align: center;
+}
+.donet-p{
+color:  rgba(14, 14, 14, 0.7);
+font-size: 12px;
+margin-top: 20px;
+}
+.donet-h{
+ font-size: 25px;
+color:  #0E0E0E ; 
+}
+.squre-box{
+ margin-top: 50px;
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+}
+.squre-1{
+ background-color: #FFFFFF;
+ box-shadow: #0E0E0E;
+ padding: 20px;
+ margin: 10px 0;
+ border-radius: 5px;
+ color:  rgba(14, 14, 14, 0.7);
+}
+.squre-2{
+ background-color: #C6E4D6;
+ box-shadow: #0E0E0E;
+ padding: 20px;
+ margin: 10px 0;
+ border-radius: 5px;
+ color:  rgba(14, 14, 14, 0.7);
+}
+
+
+.squre-2:hover{
+ color: white;
+ background-color: crimson;
+}
+.squre-1:hover{
+ color: white;
+ background-color: crimson;
+}
+.fild-btn{
+ width: ;
+ justify-content: center;
+ text-align: center;
+ margin: 0 auto;
+ align-items: center;
+ margin-left: 110px;
+ margin-top: 40px;
+}
+
+.news-letter{
+background-color: #C6E4D6;
+height: 250px;
+width: 70%;
+margin: 0 auto;
+border-radius: 7px;
+text-align: center;
+padding-top: 80px;
+}
+
+.read-p{
+ color: rgba(14, 14, 14, 0.7);
+font-size: 14px;
+padding: 20px;
+}
+
+.subscribe-btn{
  background-color: crimson;
 }
