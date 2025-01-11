@@ -279,9 +279,11 @@ padding-bottom: 5px;
  background-image: url(./assets/quote-bg.png);
  background-repeat: no-repeat;
 background-position: top 50px left 50px;
- max-width: 90%;
+ max-width: 80%;
+ border-radius: 5px;
  margin: 0 auto;
  padding:40px 50px ;
+ background-color: gray;
 }
 
 .yunus-p{
@@ -289,6 +291,7 @@ background-position: top 50px left 50px;
  padding-top: 50px;
  padding-bottom: 25px;
  font-size: 12px;
+margin-top: -14px;
 }
 .yunus-last{
 color: #0E0E0E;
@@ -530,12 +533,11 @@ border-radius: 10px;
  }
 
  .input-contenar{
-  display: flex
-  ;
-      gap: 0;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto;
+  display: flex;
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
  }
 .input-contenar .email{
   padding: 20px 10px;
@@ -552,4 +554,9 @@ border-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: #006A50;
   color: white;
+ }
+ .promise{
+  color: #0E0E0E;
+  font-size: 16px;
+  margin-top: 20px;
  }
